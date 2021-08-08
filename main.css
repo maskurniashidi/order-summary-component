@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #D6E1FF;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 90vh;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container .description {
+  width: 85%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .description h1, .container .description p {
+  text-align: center;
+}
+
+.container .description h1 {
+  color: #1F2F56;
+  margin: 0px 50px;
+  font-weight: bold;
+}
+
+.container .description p {
+  color: #7280A7;
+  margin: 20px 50px;
+}
+
+.container .description .annual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F5F7FF;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.container .description .annual .price {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 20px;
+}
+
+.container .description .annual .price h3:nth-child(2) {
+  opacity: 0.6;
+}
+
+.container .description .annual i.fa-music {
+  padding: 15px;
+  background: #DFE6FB;
+  border-radius: 50%;
+}
+
+.container .description .annual a {
+  color: blue;
+}
+
+.container .description button {
+  border: none;
+  padding: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.container .description button.btn-payment {
+  background: #3829E0;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.container .description button.btn-cancel {
+  color: #7280A7;
+  background: #fff;
+}
+/*# sourceMappingURL=main.css.map */
